@@ -39,7 +39,7 @@ void heap_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 void heapify(int *array, size_t s, size_t root, size_t size);
-void count_sort_LSD(int *array, size_t size, size_t lsd)
+void count_sort_LSD(int *array, size_t size, size_t lsd);
 void merge_recursion(int *arr, int *array, size_t left, size_t right);
 void merge_subarray(int *arr, int *array, size_t left, size_t middle, size_t right);
 
