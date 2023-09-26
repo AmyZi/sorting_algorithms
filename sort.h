@@ -44,4 +44,6 @@ void merge_recursion(int *arr, int *array, size_t left, size_t right);
 void merge_subarray(int *arr, int *array, size_t left, size_t middle, size_t right);
 void bitonic_recursion(int *array, int l, int r, int direction, size_t size);
 void bitonic_merge(int *array, int l, int r, int direction);
+void quick_recursion(int *array, int left, int right, size_t size;
+int partition(int *array, int left, int right, size_t size);
 #endif
