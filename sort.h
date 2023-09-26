@@ -46,4 +46,8 @@ void bitonic_recursion(int *array, int l, int r, int direction, size_t size);
 void bitonic_merge(int *array, int l, int r, int direction);
 void quick_recursion(int *array, int left, int right, size_t size;
 int partition(int *array, int left, int right, size_t size);
+void sort_deck(deck_node_t **deck);
+int card_value(deck_node_t *node);
+int _strcmp(const char *s1, const char *s2);
+size_t list_len_deck(deck_node_t *list);
 #endif
